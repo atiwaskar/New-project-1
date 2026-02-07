@@ -1,0 +1,42 @@
+# ===== Maven =====
+target/
+*.log
+
+# ===== Java =====
+*.class
+*.jar
+*.war
+*.ear
+
+# ===== IDEs =====
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# ===== OS Files =====
+.DS_Store
+Thumbs.db
+
+# ===== Test & Coverage =====
+jacoco.exec
+jacoco.xml
+target/site/jacoco/
+
+# ===== SonarQube =====
+.sonar/
+.scannerwork/
+
+# ===== Environment / Secrets =====
+.env
+.env.*
+*.pem
+*.key
+
+# ===== Node (if ever added) =====
+node_modules/
+
+# ===== Logs =====
+logs/
+
